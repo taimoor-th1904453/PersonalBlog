@@ -27,6 +27,6 @@ async function showQuotes(quotes){
     }
     rotate_text(0);
     function newQuote(){
-        elem.innerHTML = quotes[counter++ % 8].text;
+        elem.innerHTML = quotes[counter++ % 1644].text;
     }
 }
