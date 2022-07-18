@@ -1,0 +1,43 @@
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding-left: 5px;
+    width: 55px;
+    height: 60px;
+    background: rgba(53, 122, 56, 0.5);
+    transition-property: width;
+    transition-duration:0.8s;
+    border-radius: 50px;
+
+}
+#start{
+    justify-content: flex-start;
+}
+#end{
+    justify-content: flex-end;
+}
+.socials:hover{
+    width: 200px;
+}
+
+.socials:hover .socialsIcons {
+    -webkit-animation: fadein 1s;
+     display: block;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.socialsIcons {
+    display: none;
+}
