@@ -15,7 +15,7 @@ async function showQuotes(quotes){
 
     let elem =  document.querySelector("#quote");
     let counter = 0;
-    let DELAY = 5000;
+    let DELAY = 10000;
     let old_timestamp = 0;
 
     function rotate_text(timestamp) {
