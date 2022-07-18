@@ -3,9 +3,13 @@
 * {
     margin: 10px 10px 0px 10px;
     padding: 0;
-    background: #72BC74;
+    background: rgb(114, 188, 116);
     color: white;
     font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+body{
+    background: rgb(114, 188, 116,.5);
 }
 
 ul {
@@ -44,4 +48,5 @@ header {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+
 }
